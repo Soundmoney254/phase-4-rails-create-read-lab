@@ -29,6 +29,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development do
   gem 'foreman', '~> 0.87.2'
+  gem 'psych', '~> 3.x'
+
 end
 
 group :development, :test do
